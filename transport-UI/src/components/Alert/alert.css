@@ -1,0 +1,60 @@
+.alert {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 30px 10px 30px 40px;
+  border-radius: 5px;
+  color: white;
+  min-width: 300px;
+  z-index: 1000;
+  font-size: 18px;
+  opacity: 0; /* Start with opacity 0 */
+  animation: fadeIn 0.5s ease forwards; /* Apply fadeIn animation */
+}
+
+.alert.hidden {
+  animation: fadeOut 0.5s ease forwards; /* Apply fadeOut animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.alert-info {
+  background-color: #007bff; /* Blue for info messages */
+}
+
+.alert-success {
+  background-color: #28a745; /* Green for success messages */
+}
+
+.alert-failure {
+  background-color: #dc3545; /* Red for failure messages */
+}
+
+.close-button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 30px;
+}

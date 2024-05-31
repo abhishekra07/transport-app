@@ -1,0 +1,197 @@
+.side-wrapper-container {
+  position: fixed;
+  bottom: 0;
+  right: -410px; /* Initially hidden */
+  width: 300px;
+  height: 100vh; /* Full height of viewport */
+  background-color: #ffffff;
+  z-index: 9999; /* Ensure it's on top */
+  padding: 0px 50px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.wrapper-header {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.font {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.wrapper-header-h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(52, 71, 103);
+}
+
+.wrapper-header-p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(103, 116, 142);
+}
+
+hr {
+  flex-shrink: 0;
+  border-width: 0px;
+  border-top-style: solid;
+  border-top-color: rgba(0, 0, 0, 0.12);
+  background-color: transparent;
+  height: 0.0625rem;
+  margin: 1rem 0px;
+  opacity: 0.25;
+  background-image: linear-gradient(
+    to right,
+    rgba(52, 71, 103, 0),
+    rgba(52, 71, 103, 0.4),
+    rgba(52, 71, 103, 0)
+  ) !important;
+}
+
+.wrapper-sidenav-color-h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(52, 71, 103);
+  line-height: 1.5rem;
+}
+
+.wrapper-sidenav-color {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+  gap: 10px;
+}
+
+#closeBtn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #555;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+#closeBtn:hover {
+  color: #333;
+}
+
+.side-wrapper-container.open {
+  animation: slideIn 0.3s forwards; /* Animation for sliding in */
+}
+
+@keyframes slideIn {
+  from {
+    right: -340px; /* Start position */
+  }
+  to {
+    right: 0; /* End position */
+  }
+}
+
+.wrapper-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidenav-color-btns button {
+  margin-left: 6px;
+  width: 25px;
+  height: 25px;
+  border: 0.05rem solid white;
+  border-color: white;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: "border-color" 0.3s ease;
+}
+
+.sidenav-color-btns button:first-child {
+  margin-left: 0px;
+}
+
+.sidenav-color-btns button:hover,
+.sidenav-color-btns button:active,
+.sidenav-color-btns button:focus {
+  border-color: black !important;
+}
+
+.wrapper-sidenav-type {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-sidenav-type-p {
+  margin: 0px;
+  font-size: 0.875rem;
+  color: rgb(103, 116, 142);
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.sidenav-wrapper-btn {
+  padding-top: 20px;
+}
+
+.sidenav-wrapper-btn .btn {
+  min-width: 80px;
+  height: 40px;
+  padding: 10px 40px !important;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 10px;
+  border: 1px solid aqua !important;
+  margin-left: 0px;
+  background: transparent;
+  color: aqua;
+  margin-left: 10px;
+}
+
+.sidenav-wrapper-btn .btn:first-child {
+  margin-left: 0px;
+}
+
+.active {
+  background-image: linear-gradient(
+    310deg,
+    rgb(17, 113, 239),
+    rgb(17, 205, 239)
+  ) !important;
+  color: white !important;
+}
+
+.setting-icon-container {
+  width: 3.5rem;
+  height: 3.5rem;
+  position: fixed;
+  right: 0.5rem;
+  bottom: 20rem;
+  z-index: 99;
+  opacity: 1;
+  background: rgb(255, 255, 255);
+  color: rgb(52, 71, 103);
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.12) 0rem 0.3125rem 0.625rem 0rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.setting-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

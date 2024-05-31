@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "productName": "OPC 43",
+    "productImg": "opc_43.jpg",
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin"
+  },
+  {
+    "id": 2,
+    "productName": "PPC",
+    "productImg": "ppc.jpg",
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin"
+  },
+  {
+    "id": 3,
+    "productName": "PPC NFR",
+    "productImg": "ppc_nfr.jpg",
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin"
+  },
+  {
+    "id": 4,
+    "productName": "OPC 53",
+    "productImg": "opc_53.jpg",
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin"
+  },
+  {
+    "id": 5,
+    "productName": "STRONGCRET",
+    "productImg": "strongcret.jpg",
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin"
+  },
+  {
+    "id": 6,
+    "productName": "Rapid Set Cement",
+    "productImg": "rapid_set_cement.jpg",
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin"
+  },
+  {
+    "id": 7,
+    "productName": "AAC Blocks",
+    "productImg": "aac_blocks.jpg",
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin"
+  },
+  {
+    "id": 8,
+    "productName": "Bitumen",
+    "productImg": "bitumen.jpg",
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin"
+  },
+  {
+    "id": 9,
+    "productName": "Steel Bars",
+    "productImg": "steel_bars.jpg",
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin"
+  },
+  {
+    "id": 10,
+    "productName": "Cement Paint",
+    "productImg": "cement_paint.jpg",
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin"
+  }
+]

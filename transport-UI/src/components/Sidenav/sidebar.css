@@ -1,0 +1,114 @@
+.sidebar-container {
+  flex: 1;
+  display: flex;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 260px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: all 0.3s;
+  overflow-y: scroll;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-item {
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.arrow {
+  margin-left: 8px;
+  font-size: 1rem;
+}
+
+.submenu {
+  background-color: var(--background-color);
+  padding-left: 30px;
+  transition: max-height 0.3s ease-out;
+  max-height: 200px;
+  overflow: hidden;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.submenu-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+.hide-sidebar {
+  width: 0px;
+  overflow: hidden;
+}
+
+.menu-active:active,
+.menu-active:focus,
+.menu-active:visited,
+.menu-active:hover {
+  background-color: rgb(45, 206, 137) !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+a:visited {
+  color: inherit;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.logo-section img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.logo-section .logo {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.menu-item:hover,
+.submenu-item:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Adjust opacity for the glass effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust shadow properties for the glass effect */
+}

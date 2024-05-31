@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "partyName": "ABC Construction",
+    "locationName": "Mumbai",
+    "isGodown": 0,
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin",
+    "isDeleted": 0
+  },
+  {
+    "id": 2,
+    "partyName": "XYZ Builders",
+    "locationName": "Delhi",
+    "isGodown": 0,
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin",
+    "isDeleted": 0
+  },
+  {
+    "id": 3,
+    "partyName": "Construction Hub",
+    "locationName": "Bangalore",
+    "isGodown": 0,
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin",
+    "isDeleted": 0
+  },
+  {
+    "id": 4,
+    "partyName": "Indore Godown",
+    "locationName": "Indore",
+    "isGodown": 1,
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin",
+    "isDeleted": 0
+  },
+  {
+    "id": 5,
+    "partyName": "Sunrise Constructions",
+    "locationName": "Chennai",
+    "isGodown": 0,
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin",
+    "isDeleted": 0
+  },
+  {
+    "id": 6,
+    "partyName": "Greenway Infrastructure",
+    "locationName": "Pune",
+    "isGodown": 0,
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin",
+    "isDeleted": 0
+  },
+  {
+    "id": 7,
+    "partyName": "Blue Sky Constructions",
+    "locationName": "Hyderabad",
+    "isGodown": 0,
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin",
+    "isDeleted": 0
+  },
+  {
+    "id": 8,
+    "partyName": "Golden Gate Builders",
+    "locationName": "Kolkata",
+    "isGodown": 0,
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin",
+    "isDeleted": 0
+  },
+  {
+    "id": 9,
+    "partyName": "Silverline Infra",
+    "locationName": "Jaipur",
+    "isGodown": 0,
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin",
+    "isDeleted": 0
+  },
+  {
+    "id": 10,
+    "partyName": "Royal Constructions",
+    "locationName": "Lucknow",
+    "isGodown": 0,
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin",
+    "isDeleted": 0
+  },
+  {
+    "id": 11,
+    "partyName": "Maruti Constructions",
+    "locationName": "Ahmedabad",
+    "isGodown": 0,
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin",
+    "isDeleted": 0
+  },
+  {
+    "id": 12,
+    "partyName": "Pragati Builders",
+    "locationName": "Patna",
+    "isGodown": 0,
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin",
+    "isDeleted": 0
+  },
+  {
+    "id": 13,
+    "partyName": "A1 Builders",
+    "locationName": "Gurgaon",
+    "isGodown": 0,
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin",
+    "isDeleted": 0
+  },
+  {
+    "id": 14,
+    "partyName": "Sunset Infra",
+    "locationName": "Noida",
+    "isGodown": 0,
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin",
+    "isDeleted": 0
+  },
+  {
+    "id": 15,
+    "partyName": "Prime Constructions",
+    "locationName": "Chandigarh",
+    "isGodown": 0,
+    "createdAt": "2024-05-18T12:00:00Z",
+    "createdBy": "Admin",
+    "updatedAt": "2024-05-18T12:00:00Z",
+    "updatedBy": "Admin",
+    "isDeleted": 0
+  }
+]

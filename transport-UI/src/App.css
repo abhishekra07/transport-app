@@ -1,0 +1,29 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: #172b4d;
+  --body-background-color: aqua;
+}
+
+[data-theme="dark"] {
+  --background-color: #172b4d;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: rgb(17, 205, 239);
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  flex: 2;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 340px;
+  flex: 5;
+}

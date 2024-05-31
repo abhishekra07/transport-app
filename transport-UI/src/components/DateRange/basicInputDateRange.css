@@ -1,0 +1,49 @@
+.date-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+.end-date {
+  margin-left: 20px;
+}
+
+.date-range-picker {
+  display: flex;
+}
+
+.date-presets {
+  margin-top: 10px;
+}
+
+.date-presets button.tag {
+  border-radius: 20px;
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+}
+
+.date-presets button.tag:hover {
+  background-color: #e0e0e0;
+}
+
+.date-presets button.clear-tag {
+  border-radius: 20px;
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: #983da8;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.date-presets button.clear-tag:hover {
+  background-color: #ab2db2;
+}

@@ -1,0 +1,32 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 4px 5px 20px 0px rgba(224, 222, 222, 0.6);
+  background-color: #ffffff;
+}
+
+.user-profile > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logout-button {
+  background-color: #007bff; /* Blue background color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Add padding */
+  cursor: pointer; /* Add pointer cursor on hover */
+  border-radius: 5px; /* Add rounded corners */
+  transition: background-color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.logout-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
